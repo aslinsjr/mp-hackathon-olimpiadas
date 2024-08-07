@@ -68,7 +68,7 @@ function App() {
     window.scrollTo(0, 100)
   }
 
-  function handleMobile() { // Função Menu de Busca Mobile
+  function handleMobile() { // Função do Menu de Busca Mobile
 
     if(mobileSearch) {
       setMobileSearch(false)

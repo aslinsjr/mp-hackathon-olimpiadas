@@ -4,10 +4,10 @@ import { useState, useEffect } from "react"
 
 const Header = ({ darkMode, handleMode, handleMobile, mobileSearch }) => {
 
-  const [logoSize, setLogoSize] = useState(40)
+  const [logoSize, setLogoSize] = useState(53)
   const [windowY, setWindowY] = useState(0)
 
-  useEffect(()=> {
+  useEffect(()=> { // Efeito do Banner
 
     if(windowY !== 0) {
       setLogoSize(8)
