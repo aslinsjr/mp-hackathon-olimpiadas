@@ -11,8 +11,8 @@ Escolhi desenvolver um quadro de medalhas dos cinquenta melhores países do rank
 
 ## Links
 
-- Solution URL: [Repository](https://github.com/aslinsjr/mp-hackathon-olimpiadas)
-- Live Site URL: [Page](https://mp-hackathon-olimpiadas-five.vercel.app/)
+- Solução: [Repositório](https://github.com/aslinsjr/mp-hackathon-olimpiadas)
+- Site: [Página](https://mp-hackathon-olimpiadas-five.vercel.app/)
 
 ## Desenvolvido com
 
