@@ -1,0 +1,93 @@
+.filter-container {
+    width: 100%;
+    padding: 2rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 30vh;
+    z-index: 2;
+}
+
+.input-controll {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: var(--white);
+    padding: 0.75rem 1.5rem;
+    width: 20%;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 0.5rem 1px var(--dark-blue);
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.bi-x-lg {
+    cursor: pointer;
+}
+
+.region-select {
+    background-color: var(--white);
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 0.5rem 1px var(--dark-blue);
+}
+
+.region-select:focus {
+    outline: none;
+}
+
+select {
+    cursor: pointer;
+}
+
+.dark-input {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.filter-container button {
+    display: none;
+}
+
+@keyframes dropDown {
+    from {
+        top: -32vh;
+    }
+
+    to {
+        top: 32vh;
+    }
+}
+
+@keyframes dropUp {
+    from {
+        top: 32vh;
+    }
+
+    to {
+        top: -32vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .filter-container {
+        top: -200px;
+    }
+
+    .input-controll {
+        width: 50%;
+    }
+}
+
